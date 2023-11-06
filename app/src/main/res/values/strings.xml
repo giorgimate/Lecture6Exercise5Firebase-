@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirebaseApplication</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">Register</string>
+    <string name="sign_up_text">By signing up, you agree  to Photo’s <u>Terms of Service</u> and
+        <u>Privacy Policy</u>.</string>
+    <string name="email_error">შეიყვანეთ ვალიდური ემეილი</string>
+    <string name="password_error">პაროლი უნდა შეიცავდეს მინიმუმ 5 სიმბოლოს</string>
+    <string name="username_error">იუზერნეიმი უნდა შეიცავდეს მინიმუმ 5 სიმბოლოს</string>
+</resources>

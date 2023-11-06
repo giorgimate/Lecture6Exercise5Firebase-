@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterStep2">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/white"
+        android:src="@drawable/back_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginStart="16dp"
+        android:textFontWeight="400"
+        android:textSize="36dp"
+        android:lineHeight="40dp"
+        android:text="@string/register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack" />
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:hint="UserName"
+        android:paddingStart="17dp"
+        android:textSize="15dp"
+        android:lineHeight="17dp"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/input_decoration"
+        android:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textRegister" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegisterSignUpStage"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/register_button"
+        android:letterSpacing="0.04"
+        android:lineHeight="15dp"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUserName" />
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="343dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:textFontWeight="400"
+        android:textSize="13dp"
+        android:lineHeight="18dp"
+        android:text="By signing up, you agree to Photo’s Terms of Service and
+Privacy Policy."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegisterSignUpStage" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
